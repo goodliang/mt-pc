@@ -1,4 +1,5 @@
 <template>
+  <!-- 开心 -->
   <div id="app">
     <router-view />
   </div>
