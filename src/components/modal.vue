@@ -67,7 +67,7 @@ export default {
     left: -50vw;
     width: 100vw;
     height: 100vh;
-    background: url("https://liang-1256974191.cos.ap-beijing.myqcloud.com/mt/shuiguo_bg.png")
+    background: url("https://liang-1256974191.cos.ap-beijing.myqcloud.com/mt/mt_bg1.jpg")
       no-repeat bottom;
     background-size: cover;
     -webkit-filter: blur(15px);
@@ -78,7 +78,9 @@ export default {
     height: 100%;
     background: hsla(0, 0%, 100%, 0.6);
     .hd {
-      padding: 10px 15px;
+      padding: 15px 15px;
+      font-size: 18px;
+      color: #333;
       @include flex();
       .close {
         font-size: 20px;
