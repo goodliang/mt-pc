@@ -2,11 +2,7 @@
   <div class="home-container">
     <div class="header">
       <div class="logo">
-        <img
-          src="https://liang-1256974191.cos.ap-beijing.myqcloud.com/mt/logo.png"
-          alt=""
-          class="src"
-        />
+        <img src="https://liang-1256974191.cos.ap-beijing.myqcloud.com/mt/logo.png" alt class="src" />
         <h2>开心麻团</h2>
       </div>
       <div class="title">草根的开团神奇</div>
@@ -38,37 +34,36 @@
           一、服务第一的原则，全心全意为您提供最好的企业解决方案。因为我们知道，只有您对我们的大力支持，我们才会有发展的基础。
         </p>
         <p>我们的团队从成立之日起就有明确的品牌意识，打造原子品牌，</p>
-        <p>
-          在提供优质产品的同时，我们更注重咨询服务和售后技术支持服务，我们坚持技术和咨询两条腿走。尽善尽美的服务和优先保证顾客投资回报的经营理念是我们取信于客户的法宝。团结协作、求是创新、务实拼搏、精益求精的精神是我们成就事业的基石。
-        </p>
+        <p>在提供优质产品的同时，我们更注重咨询服务和售后技术支持服务，我们坚持技术和咨询两条腿走。尽善尽美的服务和优先保证顾客投资回报的经营理念是我们取信于客户的法宝。团结协作、求是创新、务实拼搏、精益求精的精神是我们成就事业的基石。</p>
       </div>
     </modal>
   </div>
 </template>
 
 <script>
-import modal from "../components/modal";
-import login from "../components/login";
+import modal from '../components/modal'
+import login from '../components/login'
 export default {
-  name: "Home",
+  name: 'Home',
   data() {
     return {
       isLogin: false,
       isAbout: false
-    };
+    }
   },
   components: {
     modal,
     login
   }
-};
+}
 </script>
 <style lang="scss" scoped>
-@import "../style/mixin";
+// minx
+@import '../style/mixin';
 .home-container {
   width: 100vw;
   height: 100vh;
-  background: url("https://liang-1256974191.cos.ap-beijing.myqcloud.com/mt/mt_bg1.jpg")
+  background: url('https://liang-1256974191.cos.ap-beijing.myqcloud.com/mt/mt_bg1.jpg')
     center bottom;
   background-size: cover;
   position: relative;
